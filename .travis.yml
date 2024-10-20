@@ -20,4 +20,4 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push thangpl/simple-node
+  - docker push thangpl/simple_node
